@@ -1,0 +1,11 @@
+.Wishlist{
+    padding-top: 65px;
+    /* background-color: red; */
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

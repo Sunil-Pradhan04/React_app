@@ -1,0 +1,71 @@
+.header{
+    background-color:white;
+    height: 65px;
+    width: 100%;
+    box-shadow: 1px 1px 5px rgb(208, 202, 202);
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-around;
+    position:fixed;
+}
+.link {
+    background-color: black;
+}
+.logo{
+    height: 60px;
+    margin-top: 2.5px;
+    width: 60px;
+    background-color: red;
+    border-radius: 5px;
+    background-image: url('myntra_logo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 37%;
+    height: 35px;
+    margin-top: 20px;
+}
+.item{
+    font-family: impact ,'Arial Narrow Bold';
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.19s ease-in-out;
+}
+.item:hover {
+    font-size: 11px;
+    color: blue;
+}
+.search{
+    height: 30px;
+    width: 30%;
+    border: none;
+    box-shadow: 1px 1px 5px rgb(146, 144, 141);
+    margin-top: 14px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.icon{
+    font-size: 20px;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    /* background-color: red; */
+}
+.text{
+    font-size: 13px;
+    font-family: bold;
+}
+.nav_link{
+    text-decoration: none;
+    color: black;
+}
